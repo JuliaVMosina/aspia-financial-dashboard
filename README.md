@@ -1,45 +1,60 @@
-# Aspia Group — Executive BI Dashboard (Power BI)
+# Aspia-inspired: Finance & HR Outsourcing Executive Dashboard
 
-**Domain:** Finance & HR Outsourcing | **Tool:** Power BI | **Year:** 2026
+> *Inspired by Aspia Group's reporting needs — not an official Aspia product. All data is synthetic.*
 
-A 4-page executive dashboard built on synthetic data modelled after Aspia Group —
-a Nordics-based finance and payroll outsourcing company with 3,000+ employees across 100+ offices.
-
----
-
-## Pages
-
-### 1. Overview
-High-level KPIs, revenue by region, client funnel, NPS trend, service line breakdown.
-> *Key metrics: Total Revenue EUR, Active Clients, Retention Rate %, NPS Score*
-
-### 2. Financial Performance
-Revenue dynamics by service line (Accounting, Payroll, HR Services, Tax & Legal).
-MoM % growth, YoY comparison, regional revenue breakdown, service mix matrix.
-> *Key metrics: Revenue MoM %, Revenue YoY %, Revenue per Client EUR*
-
-### 3. Client Portfolio
-Client base growth 2022–2024: peak ~450 clients in mid-2023, churn signal emerging in 2024.
-New vs churned clients by month, industry distribution, size segmentation.
-> *Key metrics: Active Clients, Retention Rate %, NPS Score, New/Churned Clients*
-
-### 4. Operational Efficiency
-Employee utilization by role (~87% avg), contracts by service line,
-avg services per client growth trend, experience vs clients managed scatter.
-> *Key metrics: Avg Utilization %, Avg Clients per Employee, Active Contracts*
+A corporate-simulation Power BI dashboard modeled after the reporting needs of a Nordic finance and payroll outsourcing company.
+Synthetic data proportioned from Aspia Group's publicly available business profile.
 
 ---
 
-## Data Model
+## Business Question
 
-| Table | Description |
+**How is our finance outsourcing business growing — and where are the risks?**
+
+A multi-region outsourcing firm serving 400+ clients across Accounting, Payroll, HR Services, and Tax & Legal generates complex operational and financial data.
+This dashboard answers the questions a Head of BI or Regional Director would bring to a monthly review:
+
+- Which service lines are driving revenue growth?
+- Are we retaining clients — and where is churn emerging?
+- How utilized is our workforce across roles and regions?
+- What does MoM and YoY revenue performance look like?
+
+---
+
+## Dashboard Pages
+
+| Page | Focus |
 |---|---|
-| `monthly_revenue` | Revenue by month, region, service line (2022–2024) |
-| `monthly_kpis` | Retention, NPS, new/churned clients, avg services per client |
-| `clients` | Client master: industry, size, status, region, acquired/churn date |
-| `contracts` | Contract-level data: service line, monthly value, status |
-| `employees` | Role, utilization %, clients managed, years experience |
-| `MonthTable` | Calculated date dimension for time intelligence |
+| **Overview** | Global KPIs: total revenue, active clients, retention rate, NPS score |
+| **Financial Performance** | Revenue by service line, MoM % growth, YoY comparison, regional mix matrix |
+| **Client Portfolio** | Client base trend, new vs churned, industry and size breakdown |
+| **Operational Efficiency** | Employee utilization by role, contracts by service line, avg services per client |
+
+---
+
+## Key Metrics
+
+| Metric | Value |
+|---|---|
+| Clients | ~400 (demo scale) |
+| Observation period | 2022–2024 (3 years) |
+| Retention rate | ~97% |
+| Avg employee utilization | ~87% |
+| Active contracts | ~982 |
+| Service lines | Accounting · Payroll · HR Services · Tax & Legal |
+
+---
+
+## Data Architecture
+
+```
+data/
+├── monthly_revenue.csv   ← revenue by month · region · service line
+├── monthly_kpis.csv      ← retention % · NPS · new/churned clients · avg services
+├── clients.csv           ← client master: industry · size · status · region
+├── contracts.csv         ← contract-level: service line · monthly value · status
+└── employees.csv         ← role · utilization % · clients managed · years experience
+```
 
 ---
 
@@ -64,9 +79,25 @@ RETURN DIVIDE(RevCurrent - RevPrior, RevPrior) * 100
 
 ---
 
-## Skills Demonstrated
+## Stack
 
-`Power BI` · `DAX` · `Power Query` · `Data Modeling` · `Star Schema` · `Time Intelligence` · `KPI Design` · `Business Storytelling`
+| Tool | Purpose |
+|---|---|
+| Power BI Desktop | Dashboard development, DAX measures, data modeling |
+| DAX | Time intelligence, KPI calculations, business logic |
+| Power Query | Data transformation and loading |
+| Star schema | Data model design |
+
+---
+
+## Design Style
+
+Inspired by Aspia's corporate visual language:
+- Primary: Aspia orange `#F4511E`
+- Accent: Aspia pink-red `#F0314A`
+- Secondary: `#FF8C42` · `#8B3FC8`
+- Dark navy: `#1B2B40`
+- Clean KPI cards, minimal gridlines
 
 ---
 
@@ -74,7 +105,17 @@ RETURN DIVIDE(RevCurrent - RevPrior, RevPrior) * 100
 
 | Page | Preview |
 |---|---|
-| Overview | *(add screenshot)* |
-| Financial Performance | *(add screenshot)* |
-| Client Portfolio | *(add screenshot)* |
-| Operational Efficiency | *(add screenshot)* |
+| Overview | *(screenshot)* |
+| Financial Performance | *(screenshot)* |
+| Client Portfolio | *(screenshot)* |
+| Operational Efficiency | *(screenshot)* |
+
+---
+
+## About
+
+**Julia Mosina** — BI & Data Analyst  
+[LinkedIn](https://www.linkedin.com/in/julia-mosina) · Espoo, Finland · Open to opportunities in Finland and EU
+
+*This is a portfolio project demonstrating Power BI and data modeling skills.
+All data is synthetic and generated specifically for this dashboard.*
