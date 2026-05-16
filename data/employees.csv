@@ -1,0 +1,76 @@
+employee_id,role,region,clients_managed,years_experience,utilization_pct
+E001,Accountant,Helsinki,15,12,74.1
+E002,Payroll Specialist,Tampere,44,16,75.5
+E003,Accountant,Helsinki,34,16,90.5
+E004,Tax Advisor,Espoo/Vantaa,26,6,94.2
+E005,Payroll Specialist,Helsinki,35,16,75.6
+E006,Accountant,Helsinki,21,8,72.8
+E007,Accountant,Other,15,9,96.7
+E008,Accountant,Helsinki,22,7,91.7
+E009,Senior Accountant,Espoo/Vantaa,27,6,96.1
+E010,Senior Accountant,Helsinki,39,20,84.7
+E011,Payroll Specialist,Espoo/Vantaa,30,15,95.1
+E012,Accountant,Other,28,13,92.2
+E013,Senior Accountant,Other,44,13,90.7
+E014,Accountant,Other,27,20,96.4
+E015,Payroll Specialist,Oulu,38,20,85.9
+E016,Tax Advisor,Helsinki,35,2,85.5
+E017,Tax Advisor,Espoo/Vantaa,29,15,93.5
+E018,Accountant,Helsinki,16,8,85.5
+E019,Accountant,Helsinki,27,2,86.5
+E020,Accountant,Espoo/Vantaa,31,2,76.9
+E021,Payroll Specialist,Oulu,34,13,95.0
+E022,Accountant,Helsinki,24,15,76.3
+E023,Accountant,Helsinki,24,20,95.9
+E024,Senior Accountant,Helsinki,47,17,95.5
+E025,Accountant,Other,29,15,74.4
+E026,Accountant,Helsinki,31,4,76.7
+E027,Accountant,Helsinki,33,18,75.5
+E028,Accountant,Tampere,28,11,83.7
+E029,Accountant,Espoo/Vantaa,20,15,87.3
+E030,Tax Advisor,Other,21,15,74.3
+E031,Payroll Specialist,Tampere,30,6,90.7
+E032,Payroll Specialist,Helsinki,23,3,75.0
+E033,Accountant,Helsinki,29,12,74.2
+E034,Accountant,Espoo/Vantaa,27,17,87.9
+E035,Accountant,Other,20,13,86.3
+E036,Tax Advisor,Turku,16,6,95.7
+E037,Accountant,Oulu,33,5,76.2
+E038,Senior Accountant,Turku,29,6,92.0
+E039,Senior Accountant,Turku,26,14,80.0
+E040,Accountant,Oulu,29,10,88.3
+E041,Tax Advisor,Helsinki,18,5,97.0
+E042,Accountant,Other,15,20,91.9
+E043,Accountant,Oulu,15,15,84.9
+E044,Accountant,Espoo/Vantaa,30,18,93.0
+E045,Accountant,Helsinki,34,16,78.2
+E046,Payroll Specialist,Espoo/Vantaa,38,16,83.8
+E047,Accountant,Espoo/Vantaa,29,3,87.6
+E048,Accountant,Oulu,15,8,94.9
+E049,Tax Advisor,Espoo/Vantaa,23,20,88.3
+E050,HR Consultant,Turku,16,2,76.8
+E051,Accountant,Other,16,12,73.0
+E052,Accountant,Helsinki,16,19,93.8
+E053,HR Consultant,Espoo/Vantaa,19,11,95.9
+E054,HR Consultant,Other,11,4,82.8
+E055,Senior Accountant,Other,30,6,89.5
+E056,Accountant,Espoo/Vantaa,34,20,86.9
+E057,Payroll Specialist,Other,37,6,97.1
+E058,Senior Accountant,Espoo/Vantaa,48,19,81.4
+E059,Payroll Specialist,Turku,21,3,92.0
+E060,Payroll Specialist,Helsinki,30,12,95.3
+E061,Accountant,Espoo/Vantaa,17,14,93.9
+E062,HR Consultant,Helsinki,12,10,84.2
+E063,Accountant,Other,18,9,80.6
+E064,Senior Accountant,Other,38,17,77.5
+E065,Payroll Specialist,Oulu,26,20,73.5
+E066,Accountant,Helsinki,33,17,97.7
+E067,Payroll Specialist,Oulu,35,20,96.3
+E068,Payroll Specialist,Helsinki,42,10,83.1
+E069,Payroll Specialist,Turku,30,9,85.7
+E070,Payroll Specialist,Turku,39,12,96.1
+E071,HR Consultant,Tampere,25,17,91.0
+E072,Senior Accountant,Espoo/Vantaa,40,16,93.0
+E073,Senior Accountant,Espoo/Vantaa,44,8,90.4
+E074,Accountant,Helsinki,21,1,75.1
+E075,Accountant,Helsinki,29,4,91.2
