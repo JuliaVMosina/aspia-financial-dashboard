@@ -101,14 +101,19 @@ Inspired by Aspia's corporate visual language:
 
 ---
 
-## Screenshots
+## Dashboard Preview
 
-| Page | Preview |
-|---|---|
-| Overview | *(screenshot)* |
-| Financial Performance | *(screenshot)* |
-| Client Portfolio | *(screenshot)* |
-| Operational Efficiency | *(screenshot)* |
+### Executive Overview
+![Executive Overview](assets/Executive%20Overview.png)
+
+### Financial Performance
+![Financial Performance](assets/Financial%20Performance.png)
+
+### Client Portfolio
+![Client Portfolio](assets/Client%20Portfolio.png)
+
+### Operational Efficiency
+![Operational Efficiency](assets/Operational%20Efficiency.png)
 
 ---
 
